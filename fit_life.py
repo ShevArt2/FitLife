@@ -1,10 +1,10 @@
 # Проект FitLife - MVP версия 1.0
 import sys
+
 sys.stdout.reconfigure(encoding="utf-8")
 # исправление проблемы с тестом 6(output был NoneType)
 
-
-WATER_PER_KG = 30  # рекомендуемый объём воды на килограм веса
+WATER_PER_KG = 30  # рекомендуемый объём воды на килограмм веса
 # 1. Знакомство
 user_name = input("Приветствую! Как я могу к вам обращаться? ")
 user_age = int(input("Сколько вам лет? "))
