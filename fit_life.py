@@ -5,7 +5,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 # исправление проблемы с тестом 6(output был NoneType)
 
 WATER_PER_KG = 30  # рекомендуемый объём воды на килограмм веса
-ML_PER_LITER = 1000 
+ML_PER_LITER = 1000
 # 1. Знакомство
 user_name = input("Приветствую! Как я могу к вам обращаться? ")
 user_age = int(input("Сколько вам лет? "))
